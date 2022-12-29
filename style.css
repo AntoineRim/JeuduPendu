@@ -1,0 +1,232 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:lightblue;
+}
+
+button {
+  height: 100px;
+  width : 200px;
+  border-style: solid;
+  border-color: lightslategray;
+  background-color: ivory;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Themes {
+  position : absolute;
+  width : 800px;
+  height : 350px;  
+  text-align: center;
+  top : 220px;
+  left : 180px;
+  border-style: dashed;
+  border-color: lavender;
+}
+
+#Pays {
+  position : absolute;
+  top : 80px;
+  left : 130px;
+}
+
+#Animaux {
+  position : absolute;
+  top : 80px;
+  left : 480px;
+}
+
+#Sports {
+  position : absolute;
+  left : 130px;
+  top : 200px;
+}
+
+#Legumes {
+  position : absolute;
+  left : 480px;
+  top : 200px;
+}
+
+#jouer {
+  position : absolute;
+  height: 100px;
+  width : 250px;
+  left : 300px;
+  top: 300px;
+}
+
+#divDessin {
+  position : absolute;
+  left : 750px;
+  top : 80px;
+  width : 400px;
+  height : 400px;
+  background-color: white;
+  border-style: dotted;
+  border-color: mediumturquoise;
+}
+
+#divTexte {
+  position: absolute;
+  border-style: solid;
+  border-color: lightskyblue;
+  background-color:azure;
+  width : 400px;
+  height : 250px;
+  top : 100px;
+  left : 170px;
+  text-align : center;
+  justify-items: center;
+}
+
+#divtop10 {
+  position : absolute;
+  top : 410px;
+  left : 190px;
+  height : 200px;
+  width : 350px; 
+  border-style: double;
+  border-color:mediumorchid;
+  background-color: plum;
+  text-align: center;
+  justify-items: center;
+}
+
+#divboutons {
+  position : absolute;
+  height : 350px;
+  width : 450px;
+  top: 400px;
+  left : 180px;
+}
+
+#table {
+  position : absolute;
+  height : 600px;
+  width : 400px;
+  left : 750px;
+  top : 80px;
+  border-style: solid;
+  border-width: medium;
+  border-color: darkgoldenrod;
+  background-color:floralwhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  justify-items: center;
+}
+
+#enteteTable{
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: beige;
+}
+
+td {
+  border-style: solid;
+  border-width: thin;
+}
+
+p {
+  font-weight: bold;
+  margin-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#motCache {
+  margin-top: 20px;
+  color:maroon;
+}
+
+#saisieMot {
+  margin-top: 20px;
+  text-align: center;
+  border-color: indianred;
+}
+
+#pseudo {
+  text-align: center;
+  border-color: indianred;
+}
+
+#boutonClassement {
+  background-color:goldenrod;
+}
+
+#localStorage {
+  background-color: lightgreen;
+}
+
+#pied {
+  position : absolute;
+  bottom : 5px;
+  left : 100px;
+}
+
+#poutreverticale {
+  position : absolute;
+  bottom : 25px;
+  left : 150px;
+}
+
+#chevron {
+  position : absolute;
+  bottom : 215px;
+  left : 170px;
+}
+
+#poutrehaut {
+  position : absolute;
+  bottom : 275px;
+  left : 150px;
+}
+
+#corde {
+  position : absolute;
+  top : 125px;
+  left : 285px;
+}
+
+#tete {
+  position : absolute;
+  top : 215px;
+  left : 275px;
+}
+
+#corps {
+  position : absolute;
+  top : 250px;
+  left : 268px;
+}
+
+#jambes {
+  position : absolute;
+  top : 310px;
+  left : 273px;
+}
+
+#brasgauche {
+  position : absolute;
+  top : 270px;
+  left : 258px;
+}
+
+#brasdroit {
+  position : absolute;
+  top : 270px;
+  left : 318px;
+}
